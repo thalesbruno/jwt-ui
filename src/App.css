@@ -1,0 +1,68 @@
+.appContainer {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.home {
+  margin: 100px 0;
+}
+
+.home a {
+  text-decoration: none;
+  font-size: 80px;
+  color: #aaa;
+  margin: 20px;
+}
+.home a:hover {
+  color: rgba(19, 97, 199, 0.5);
+}
+
+.login {
+  width: 400px;
+  border-color: #ccc;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login input {
+  margin: 3px 0;
+  height: 32px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login select {
+  margin: 3px 0;
+  height: 32px;
+  padding: 0;
+}
+
+.login button {
+  margin: 3px 0;
+  height: 36px;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: rgba(54, 125, 218, 0.5);
+  color: #fff;
+}
+
+.login button:hover {
+  background-color: rgba(19, 97, 199, 0.5);
+  color: #fff;
+}
+
+.login button:disabled {
+  background-color: rgba(231, 228, 228, 0.5);
+  color: #bbb;
+  border: none;
+}
